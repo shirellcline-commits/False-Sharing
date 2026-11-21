@@ -2,7 +2,7 @@
 Estructura de Datos y Algoritmos II.  
 Profesor: Daniel Vargas Sánchez.
 
-## Integrantes  
+## Integrantes
 - 323201209. Cline Gonzázlez Jocelyn Shirell
 - 323148760. Cortés González Alyson Sarahi
 - 425071360. Estrada Barrera Karen Aline
