@@ -111,6 +111,10 @@ int main() {
     return 0;
 }
 ```
+**Compilar y ejecutar con:**  
+```
+gcc -O2 -fopenmp src/demo.c -o demo && ./demo
+```
 
 ## Resultados
 ```
