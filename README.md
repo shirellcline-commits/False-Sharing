@@ -146,6 +146,18 @@ Conteo cubeta 0 -> Seq: 50000002 | FS: 50000002 | Pad: 50000002 | Local: 5000000
 
 ## Conclusiones
 
+False Sharing es un problema importante en la programación paralela, ya que puede disminuir el rendimiento de los programas cuando diferentes hilos modifican datos independientes que se encuentran dentro de una misma línea de caché.
+
+Actualmente, esto es relevante porque muchos sistemas utilizan procesadores multinúcleo para realizar diferentes tareas simultáneamente, como el procesamiento de imágenes, el análisis de datos, las simulaciones científicas y el funcionamiento de servidores.
+
+Por un lado, Padding conviene cuando diferentes hilos actualizan frecuentemente sus propios datos en memoria compartida, como sucede con los contadores. Su función es separar los datos mediante espacio adicional para evitar que compartan una misma línea de caché. Ejemplos de aplicaciones: contador y en estadísticas de solicitudes en servidores.
+
+Por otro lado, las variables locales o privadas convienen cuando podemos dividir el trabajo entre diferentes hilos y cada uno puede obtener sus propios resultados de manera independiente, para posteriormente combinarlos. Un ejemplo es la creación de histogramas durante el procesamiento de imágenes.
+
+---
+
+## Referencias
+
 - CodeLucky. (2026, 6 de enero). False Sharing: The Hidden Parallel Programming Bug
 Exp/ained [Video]. YouTube. https://www.youtube.com/watch?v=HROHHmvOiuM
 
@@ -155,9 +167,5 @@ Exp/ained [Video]. YouTube. https://www.youtube.com/watch?v=HROHHmvOiuM
 
 - OpenMP Architecture Review Board. (2021). OpenMP Application Programming Interface
 Specification (Versión 5.2).
-
----
-
-## Referencias
 
 ---
