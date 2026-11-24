@@ -129,13 +129,13 @@ Conteo cubeta 0 -> Seq: 50000002 | FS: 50000002 | Pad: 50000002 | Local: 5000000
 ---
 
 ## Análisis de Resultados
-```
+
 | Implementación | Tiempo de ejecución | Resultado |
 |---|---:|---|
 | False Sharing | 62 ms | Mejora frente a la versión secuencial, pero pierde parte de la ventaja del paralelismo. |
 | Padding | 32 ms | Separa los datos de cada hilo en distintas líneas de caché. |
 | Variables locales | 31 ms | Cada hilo cuenta por separado y combina los resultados al final. |
-```
+
 ---
 
 ## Conclusiones
