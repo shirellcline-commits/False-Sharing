@@ -136,6 +136,12 @@ Conteo cubeta 0 -> Seq: 50000002 | FS: 50000002 | Pad: 50000002 | Local: 5000000
 | Padding | 32 ms | Separa los datos de cada hilo en distintas líneas de caché. |
 | Variables locales | 31 ms | Cada hilo cuenta por separado y combina los resultados al final. |
 
+
+| Implementación | Reducción del tiempo |
+|---|---:|
+| Padding | 48% menos |
+| Variables locales | 50% menos |
+
 ---
 
 ## Conclusiones
