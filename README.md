@@ -111,7 +111,7 @@ int main() {
     return 0;
 }
 ```
-**Compilar y ejecutar con:**  
+**Compilar y ejecutar con ( Desde Codespaces ):**  
 ```
 gcc -O2 -fopenmp src/demo.c -o demo && ./demo
 ```
