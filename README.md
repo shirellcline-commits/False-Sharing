@@ -146,6 +146,16 @@ Conteo cubeta 0 -> Seq: 50000002 | FS: 50000002 | Pad: 50000002 | Local: 5000000
 
 ## Conclusiones
 
+- CodeLucky. (2026, 6 de enero). False Sharing: The Hidden Parallel Programming Bug
+Exp/ained [Video]. YouTube. https://www.youtube.com/watch?v=HROHHmvOiuM
+
+- Sutter, H. (2009). Effective Concurrency: Eliminate False Sharing. Dr. Dobb's Journal.
+
+- Herlihy, M., Shavit, N., Luchangco, V., & Spear, M. (2020). The Art of Multiprocessor Programming (2.ª ed., Cap. 1: Introduction & Cap. 10: Concurrent Queues). Morgan Kaufmann.
+
+- OpenMP Architecture Review Board. (2021). OpenMP Application Programming Interface
+Specification (Versión 5.2).
+
 ---
 
 ## Referencias
